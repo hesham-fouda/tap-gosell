@@ -17,7 +17,7 @@ class Customers extends Api
     use Delete;
     use All;
 
-    protected static string $endpoint = '/v2/customers';
+    protected static $endpoint = '/v2/customers';
 
     private static function classUrl()
     {

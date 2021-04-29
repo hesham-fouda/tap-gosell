@@ -15,7 +15,7 @@ class Charges extends Api
     use Update;
     use All;
 
-    protected static string $endpoint = '/v2/charges';
+    protected static $endpoint = '/v2/charges';
 
     private static function classUrl()
     {

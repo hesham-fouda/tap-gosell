@@ -17,7 +17,7 @@ class Authorize extends Api
     use Voided;
     use All;
 
-    protected static string $endpoint = '/v2/authorize';
+    protected static $endpoint = '/v2/authorize';
 
     private static function classUrl()
     {

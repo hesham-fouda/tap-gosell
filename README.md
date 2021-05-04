@@ -20,7 +20,7 @@ This library supports PHP 5.6 and later.
 
 The recommended way to install GoSell PHP SDK is through [Composer](https://getcomposer.org):
 
-```composer require tappayments/gosell```
+```composer require etchfoda/tap-gosell```
 
 To use the bindings, use Composer's [autoload](https://getcomposer.org/doc/01-basic-usage.md#autoloading):
 
@@ -107,3 +107,7 @@ var_dump($charge); //will give charge response as PHP object
 * [Authorize](https://github.com/Tap-Payments/gosell-sdk-php/wiki/Authorize)
 * [Customers](https://github.com/Tap-Payments/gosell-sdk-php/wiki/Customers)
 * [Refunds](https://github.com/Tap-Payments/gosell-sdk-php/wiki/Refunds)
+
+## Cloned From
+
+* [Tap-Payments](https://github.com/Tap-Payments/gosell-sdk-php)

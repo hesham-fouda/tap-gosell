@@ -41,6 +41,7 @@ trait Common
         try {
             $headers = [
                 'Authorization' => 'Bearer ' . static::getKey(),
+                'lang_code' => 'AR',
                 'Content-Type' => 'application/json'
             ];
 
